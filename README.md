@@ -30,4 +30,4 @@ Repositório reservado para o Bootcamp Orange Tech +, uma parceria [Inter](https
 <a href="https://vidigal-code.github.io/Bootcamp-Orange-Tech/Pokedex-OrangeTech/index.html" target="_blank">Click Here to view the Project</a>
 </p>
 <br/>
-<img align="center" src="https://github.com/Vidigal-code/Bootcamp-Orange-Tech/blob/master/Pokedex-OrangeTech/assets/img/Project%20Image/Pokedex.gif" alt="Pokedex"/>
+<img align="center" src="https://github.com/Vidigal-code/Bootcamp-Orange-Tech/blob/main/Pokedex-OrangeTech/assets/img/Project%20Image/Pokedex.gif" alt="Pokedex"/>
