@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://web.dio.me/track/orange-tech/"><img src="https://github.com/Vidigal-code/Bootcamp-Orange-Tech/blob/master/ASSETS/IMG/orangetech.png" alt="Logo Orange Tech +" width="100"/></a> <br />Orange Tech + </h1>
+<h1 align="center"><a href="https://web.dio.me/track/orange-tech/"><img src="https://github.com/Vidigal-code/Bootcamp-Orange-Tech/blob/main/ASSETS/IMG/orangetech.png" alt="Logo Orange Tech +" width="100"/></a> <br />Orange Tech + </h1>
 
 Repositório reservado para o Bootcamp Orange Tech +, uma parceria [Inter](https://www.bancointer.com.br/) e [DIO](https://dio.me/).
 
