@@ -16,24 +16,21 @@
 // - "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
 // - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
 
-let lines = gets().split("\n"); 
-let n = parseInt(lines.shift()); 
+let lines = gets().split("\n");
+let n = parseInt(lines.shift());
 
-const dp = new Array(n + 1).fill(Infinity); 
+const dp = new Array(n + 1).fill(Infinity);
 dp[0] = 0; 
 
-//TODO: Com base no valor total, retorne o menor número de quadrados perfeitos.
-
-perfectSquares = [];
-
-for(i = 0; i < parseInt(Math.sqrt(n)); i++) {
-  perfectSquares.push(Math.pow(i + 1, 2));
+const perfectSquares = [];
+for (let i = 1; i * i <= n; i++) {
+  perfectSquares.push(i * i);
 }
 
-for(i = 1; i <= n; i++) {
-  for(perfectSquare of perfectSquares) {
-    if(i - perfectSquare >= 0) {
-      dp[i] = Math.min(dp[i], dp[i - perfectSquare] + 1);
+for (let i = 1; i <= n; i++) {
+  for (const square of perfectSquares) {
+    if (i - square >= 0) {
+      dp[i] = Math.min(dp[i], dp[i - square] + 1);
     }
   }
 }
